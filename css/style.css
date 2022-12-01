@@ -1,0 +1,617 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans serif;
+}
+
+.header{
+    background-color: #222222;
+    width: 100vw;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    gap: 10px;
+}
+
+.header .ofertas span{
+    color:#F3F3F3;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    
+    
+}
+.navM{
+    margin-right: 20px;
+}
+
+.navM ul {
+    display: flex;;
+    color: #F3F3F3;
+    font-size: 10px;
+    list-style: none;
+    gap: 20px;
+   
+    
+}
+.navM ul li a{
+    text-decoration: none;
+    color: #F3F3F3;
+    font-size: 10px;
+    list-style: none;
+
+
+    
+}
+.Principal{
+    width: 100vw;
+    background-color:#F0A83E;
+    width: 100%;
+    height:62px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoF{
+   
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.logoF .F{
+    color:#3C2313;
+    font-size: 20px;
+    
+    
+}
+.logoF .CD{
+    color:#FFFFFF;
+    font-size: 20px;
+    
+}
+.dog{
+    Width: 22px;
+    Height:20px;
+}
+.cat{
+    Width:20px;
+    Height:20px;
+
+}
+.navP ul li{
+    display:inline;
+    margin-right: 20px;
+    font-family: 'Roboto', sans serif;
+
+}
+
+.navP ul li a {
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 13px;
+
+}
+.baner  {
+width: 100vw;
+height: 409px;
+background-image: url(../img/fondo.png);
+background-size:cover;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+
+
+
+
+
+}
+
+
+
+
+
+
+.contein-T {
+font-size: 30px;
+color: #3C2313;
+background-size:100%;
+background-color: #FFFFFF;
+
+
+} 
+   
+
+
+.comederos{
+width: 100%;
+font-weight: 700;
+font-size: 16px;
+color: #3C2313;
+text-align: center;
+margin: 10px;
+
+
+
+}
+
+button{
+
+width: 141px;
+height: 49px;
+background: #F0A83E;
+border-radius: 5px;
+border-style: none;
+text-transform: uppercase;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #FFFFFF;
+position: relative;
+left: 120px;
+
+
+
+
+}
+
+.menuProductos{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+
+}
+.menuProductos a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #666666;
+
+}
+.titulo{
+
+
+font-weight: 700;
+font-size: 40px;
+color: #3C2313;
+    
+}
+
+.patita {
+    width: 67px;
+    height:71px;
+    background-image: url(../img/pawprint\ 1.svg);
+    background-repeat: no-repeat;
+ 
+   
+
+}
+
+.Navp a:hover{
+    background-color: #F0A83E;
+}
+
+.Navp ul {
+
+color: #666666;
+list-style-type: none;
+display: flex;
+gap: 10px;
+
+}
+
+.menuProductos .Navp ul li{
+width: 100%;
+
+
+
+}
+
+.productos{
+margin-top: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 100px;
+}
+.churrasco {
+text-align: center;
+
+}
+.Com{
+    text-align: center;
+}
+
+.Hueso{
+    text-align: center;
+}
+
+.churrasco .NomChu{
+font-size: 18px;
+font-weight:bold;
+color: #3C2313;
+position: relative;
+bottom: 60px;
+}
+
+.Com .NomCom{
+font-size: 18px;
+font-weight:bold;
+color: #3C2313;
+position: relative;
+bottom: 60px;}
+
+.Hueso .NomH{
+font-size: 18px;
+font-weight:bold;
+color: #3C2313;
+position: relative;
+ bottom: 60px;
+}
+.churrasco .precC{
+font-size: 18px;
+font-weight:bold;
+color: #F0A83E;
+position: relative;
+bottom: 55px;
+}
+.Hueso .precH{
+font-size: 18px;
+font-weight:bold;
+color: #F0A83E;
+position: relative;
+bottom: 55px;
+}
+
+.Com .precCom{
+font-size: 18px;
+font-weight:bold;
+color: #F0A83E;
+position: relative;
+bottom: 55px;
+}
+
+
+.Formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+    
+}
+
+ .Formulario .contac{
+
+width: 143px;
+height: 29px;
+font-weight: 700px;
+font-size: 25px;
+color: #3C2313;
+
+
+
+
+}
+
+.contacto{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 20px;
+
+}
+.nombre{
+
+width: 340px;
+height: 40px;
+
+background: #3C2313;
+border-radius: 15px;
+color: #FFFFFF;
+
+
+
+
+}
+.email{
+
+width: 340px;
+height: 40px;
+
+background: #3C2313;
+border-radius: 15px;
+    
+}
+.numero{
+
+width: 340px;
+ height: 40px;
+
+background: #3C2313;
+border-radius: 15px;
+color: #FFFFFF;
+}       
+
+.enviar{
+
+width: 110px;
+height: 34px;
+
+background: #F0A83E;
+border-radius: 15px;
+border: none;
+color: #FFFFFF;
+font-size: 16px;
+}
+.Reset{
+
+width: 110px;
+height: 34px;
+
+background: #8A8787;
+border-radius: 15px;
+border: none;
+color: #FFFFFF;
+font-size: 16px;
+
+
+}
+.suscripcion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E;
+    align-items: center;
+    height: 60px;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.susc{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.correo{
+    order: -1;
+    margin-left: 10px;
+}
+
+.susc p{
+    color: #FFFFFF;
+}
+
+.mail-suscripcion{
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+}.suscribirme {
+    background: #3C2313;
+    border-radius: 15px;
+    font-size: 9px;
+    text-decoration: none;
+    color: #F3F3F3;
+    text-align: center;
+    width: 70px;
+    height: 34px;
+    padding: 10px;
+}
+.mail{
+background: #FFFFFF;
+border-radius: 15px;
+border: none;
+width: 271px;
+height: 40px;
+}
+
+
+
+.icon{
+    background-color: #3C2313;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+  
+}
+.seccionIconos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.phone{
+display: flex;
+align-items: center;
+gap: 20px;
+
+}
+.correoE{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+footer{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 20px;
+background: #3C2313;
+color: #F3F3F3;
+font-size: 10px;
+width: 100%;
+}
+.location .local{
+color: #FFFFFF;
+font-weight: 700;
+font-size: 20px;
+}
+.phone .num{
+color: #FFFFFF;
+font-weight: 700;
+font-size: 20px;
+}
+.correoE .CorreoElec{
+color: #FFFFFF;
+font-weight: 700;
+font-size: 20px;
+ }
+
+ .location .desL{
+color: #8A8787;
+font-size: 12px;
+ }
+.phone .DesN{
+color: #8A8787;
+font-size: 12px;   
+}
+
+.descEmail{
+color: #8A8787;
+font-size: 12px; 
+}
+
+.logoFa{
+font-weight: bold;
+display: flex;
+align-items: center;
+margin-right: 15px;
+}
+.logoFa .F1{
+    color:#FFFFFF;
+    font-size: 20px;
+    
+    
+}
+.logoFa .CD1{
+    color: #F0A83E;
+    font-size: 20px;
+}
+
+@media (max-width :768px ) {
+    .header {
+        display: none;
+        width: 100vw;
+    }
+    
+    .navP {
+        display: none;
+    }
+    .baner {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+ .productos{
+    display: flex;
+    flex-direction: column;
+ }
+ .titulo{
+text-align: center;
+ }
+ .Reset,.enviar{
+    width: 180px;
+    height: 34px;
+    
+}
+.suscripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.susc{
+    
+    font-weight: 400;
+    font-size: 20px;
+    width: 100vw;
+
+   
+
+color: #FFFFFF;
+
+}
+
+}
+.ico{
+    display: none;
+}
+
+.icon{
+    display: none;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+
+
+@media (max-width : 480px) {
+ 
+    .suscripcion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+        width: 100vw;
+        height: 101px;
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+    .logoFa{
+        order: -1;
+        margin-top: 10px;
+     
+    }
+    footer{
+        background-color: #222222;
+        width: 100vw;
+    }
+    .nombre{
+
+        width: 340px;
+        height: 40px;
+   
+    }
+    .seccionIconos{
+        margin-bottom: 10px;
+    }
+    .ico{
+        margin-right: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
